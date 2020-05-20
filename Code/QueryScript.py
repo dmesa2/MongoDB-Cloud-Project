@@ -4,7 +4,7 @@ import numpy as np
 import datetime
 from datetime import datetime
 
-cluster = MongoClient("insert ip here",27017)
+cluster = MongoClient("Insert IP Address Here",27017)
 
 db = cluster["Freeway"]
 
