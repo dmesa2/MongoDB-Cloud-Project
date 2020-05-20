@@ -22,7 +22,7 @@ Depending on the specific instance being configured, the port address would need
 
 After configuring each config file in each of the ten VM instances, I then proceeded to connect the systems such that it matches the above database system. I began this procedure by first creating the replica sets for the configuration servers, and for both shard clusters. This was done through ssh’ing into one of the VM instances, logging into the mongo router, and running the MongoDB replication command and providing the respective arguments. 
 
-At this stage, it was time to import the Freeway data which consists of over 17 million records into the database system. I used the MongoDB Compass application to connect to my database system and upload the data. Afterwards, the database look like this:
+At this stage, it was time to import the Freeway data which consists of over 17 million records into the database system. I used the MongoDB Compass application to connect to my database system and upload the data. After importing the data, the database looks like this:
 
 <p align="center">
   <img src="https://github.com/dmesa2/MongoDB-Cloud-Project/blob/master/Images/MongoDB%20Compass%20Data.png?raw=true" alt="COMPASS"/>
