@@ -8,7 +8,7 @@ import pymongo
 from pymongo import MongoClient
 import numpy as np
 
-cluster = MongoClient("35.247.45.103",27017)
+cluster = MongoClient("Insert IP Address Here",27017)
 
 db = cluster["Freeway"]
 collection = db["FreewayLoop"]
