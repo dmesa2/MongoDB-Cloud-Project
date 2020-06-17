@@ -36,7 +36,7 @@ Once the data was imported, I cleaned the data by removing irrelevant informatio
 
 The database contains five collections total (four are relevant but the additional one was used as a subset to the larger collection for the initial queries). 
 
-For the queries on the dataset, I used PyMongo which is a Python framework that connects to the MongoDB router. PyMongo is a great framework as it allows the user to query the database and then use the results from that query to perform more complex analysis with Python code. The following results are from three queries (The code to the queries can be seen in the QueryScript.py in the Code folder.
+For the queries on the dataset, I used PyMongo which is a Python framework that connects to the MongoDB router. PyMongo is a great library as it allows the user to query the database and then use the results from that query to perform more complex analysis with Python code. The following results are from three queries (The code to the queries can be seen in the QueryScript.py in the Code folder.
 
 <p align="center">
   <img src="https://github.com/dmesa2/MongoDB-Cloud-Project/blob/master/Images/Query%20Results.png?raw=true" alt="QUERY RESULTS"/>
